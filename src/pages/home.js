@@ -3,7 +3,12 @@ function Home() {
     <div className="home">
       Katias page
       <div>
-        <img src="./converse1.jpg" width="240" height="128"></img>
+        <img
+          src="./converse1.jpg"
+          alt="converse shoes"
+          width="240"
+          height="128"
+        ></img>
       </div>
     </div>
   );
