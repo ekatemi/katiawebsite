@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 function Topbar() {
   return (
     <div>
       <div className="topnav">
-        <a className="active" href="#home">
+        <Link className="active" to="home">
           Home
-        </a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        </Link>
+        <Link to="about">About</Link>
+        <Link to="services">Services</Link>
+        <Link to="contact">Contact</Link>
       </div>
     </div>
   );
