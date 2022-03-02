@@ -6,6 +6,8 @@ import Contact from "./pages/contact";
 import Topbar from "./components/topbarmenu/topbar";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 function App() {
+  console.log("hello katia");
+
   return (
     <>
       <BrowserRouter>
