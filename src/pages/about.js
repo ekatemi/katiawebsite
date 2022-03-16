@@ -3,12 +3,7 @@ function About() {
     <div className="home">
       About page
       <div>
-        <img
-          src="./converse1.jpg"
-          alt="converse shoes"
-          width="240"
-          height="128"
-        ></img>
+        <img src="./1.jpg" alt="moom" width="240" height="128"></img>
       </div>
     </div>
   );
